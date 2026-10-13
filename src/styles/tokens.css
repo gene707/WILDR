@@ -1,0 +1,138 @@
+:root {
+  /* ==========================================================================
+     WILDR Design Tokens
+     A nature-inspired palette: forest green, earth neutrals, warm off-white.
+     WCAG 2.1 AA/AAA compliant contrast ratios.
+     ========================================================================== */
+
+  /* Forest Greens */
+  --color-primary-900: #12251b;
+  --color-primary-800: #1a3828;
+  --color-primary-700: #234c37;
+  --color-primary-600: #2f6348;
+  --color-primary-500: #3f7e5d;
+  --color-primary-400: #5c9e7b;
+  --color-primary-300: #88be9f;
+  --color-primary-200: #b9dec8;
+  --color-primary-100: #e2f1e8;
+  --color-primary-50:  #f0f7f3;
+
+  /* Earth Neutrals */
+  --color-neutral-900: #1c1a17;
+  --color-neutral-800: #2d2924;
+  --color-neutral-700: #423d36;
+  --color-neutral-600: #5c554b;
+  --color-neutral-500: #7b7266;
+  --color-neutral-400: #a1978b;
+  --color-neutral-300: #ccc4b9;
+  --color-neutral-200: #e5dfd6;
+  --color-neutral-100: #f2eee8;
+  --color-neutral-50:  #faf8f5;
+
+  /* Warm Off-White / Backgrounds */
+  --color-bg-base:     #faf8f5;
+  --color-bg-surface:  #ffffff;
+  --color-bg-subtle:   #f3efe8;
+  --color-bg-elevated: #ffffff;
+  --color-bg-overlay:  rgba(28, 26, 23, 0.6);
+
+  /* Text Colors (High Contrast) */
+  --color-text-main:      #1c1a17;
+  --color-text-muted:     #5c554b;
+  --color-text-secondary: #423d36;
+  --color-text-inverse:   #ffffff;
+
+  /* Nature Accents */
+  --color-accent-amber: #99551c;
+  --color-accent-amber-light: #fbeee3;
+  --color-accent-sky:   #1b5978;
+  --color-accent-sky-light: #e4f1f8;
+
+  /* Semantic Feedback */
+  --color-success-bg:     #eaf5ed;
+  --color-success-border: #92cca1;
+  --color-success-text:   #1a522a;
+
+  --color-warning-bg:     #fcf5e5;
+  --color-warning-border: #f2cf78;
+  --color-warning-text:   #734e00;
+
+  --color-error-bg:       #faecec;
+  --color-error-border:   #ea9999;
+  --color-error-text:     #8f1d1d;
+
+  --color-info-bg:        #e9f3f8;
+  --color-info-border:    #9bc4de;
+  --color-info-text:      #124866;
+
+  /* Focus Indicator (Visible, Accessible) */
+  --color-focus-ring:     #234c37;
+  --focus-outline:        3px solid var(--color-focus-ring);
+  --focus-offset:         2px;
+
+  /* Typography */
+  --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  --font-size-xs:   0.75rem;    /* 12px */
+  --font-size-sm:   0.875rem;   /* 14px */
+  --font-size-base: 1rem;       /* 16px */
+  --font-size-md:   1.125rem;   /* 18px */
+  --font-size-lg:   1.25rem;    /* 20px */
+  --font-size-xl:   1.5rem;     /* 24px */
+  --font-size-2xl:  1.875rem;   /* 30px */
+  --font-size-3xl:  2.25rem;    /* 36px */
+
+  --font-weight-regular:  400;
+  --font-weight-medium:   500;
+  --font-weight-semibold: 600;
+  --font-weight-bold:     700;
+
+  --line-height-tight:   1.2;
+  --line-height-snug:    1.35;
+  --line-height-normal:  1.5;
+  --line-height-relaxed: 1.65;
+
+  /* Spacing Scale */
+  --space-0: 0;
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1rem;     /* 16px */
+  --space-5: 1.25rem;  /* 20px */
+  --space-6: 1.5rem;   /* 24px */
+  --space-8: 2rem;     /* 32px */
+  --space-10: 2.5rem;  /* 40px */
+  --space-12: 3rem;    /* 48px */
+  --space-16: 4rem;    /* 64px */
+
+  /* Border Radii */
+  --radius-xs:   4px;
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   14px;
+  --radius-xl:   20px;
+  --radius-full: 9999px;
+
+  /* Borders */
+  --border-subtle: 1px solid var(--color-neutral-200);
+  --border-strong: 1px solid var(--color-neutral-300);
+  --border-primary: 1px solid var(--color-primary-300);
+
+  /* Shadows (Calm, organic) */
+  --shadow-sm: 0 1px 3px rgba(28, 26, 23, 0.06);
+  --shadow-md: 0 4px 12px rgba(28, 26, 23, 0.08);
+  --shadow-lg: 0 8px 24px rgba(28, 26, 23, 0.12);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 220ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout Breakpoints (for reference in CSS modules / media queries)
+     Mobile min: 360px
+     Tablet: 640px / 768px
+     Desktop: 1024px / 1200px
+  */
+  --layout-max-width: 1120px;
+  --layout-content-width: 800px;
+}
