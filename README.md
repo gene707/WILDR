@@ -211,7 +211,4 @@ WILDR isn't trying to replace outdoor exploration with an AI experience. It aims
 
 ## 🔗 Project Links
 
-- **GitHub:** https://github.com/gene707/WILDR
-- **Live demo:** [Add deployed URL when available]
-- **Demo video:** [Add video URL when available]
 - **Challenge:** [Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass](https://dev.to/challenges/hacktoberfest-week1-2026-10-05)
